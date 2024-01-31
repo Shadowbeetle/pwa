@@ -1,9 +1,10 @@
 window.addEventListener("beforeinstallprompt", (e) => {
-  alert("beforeinstallprompt fired");
+  document.getElementById("beforeinstallprompt").innerHTML =
+    "beforeinstallprompt";
   e.prompt();
 });
 
 // Hide the install button
 window.addEventListener("appinstalled", (evt) => {
-  alert("appinstalled fired");
+  document.getElementById("appinstalled").innerHTML = "appinstalled";
 });
