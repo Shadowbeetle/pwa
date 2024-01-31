@@ -3,13 +3,13 @@
 	"short_name": "PWA Test",
 	"icons": [
 		{
-			"src": "https://cdn.glitch.com/a4e40b02-f421-4e10-b9a8-4df7938a4024%2Fbaby-192.png",
+			"src": "/logo.192x192.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "https://cdn.glitch.com/a4e40b02-f421-4e10-b9a8-4df7938a4024%2Fbaby-512.png",
+			"src": "/logo.512x512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any maskable"
